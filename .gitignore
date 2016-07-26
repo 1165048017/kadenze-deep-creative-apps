@@ -90,3 +90,6 @@ ENV/
 
 # Celeb net folder
 img_align_celeba/
+
+# Galaxy zoo folder
+galaxy_zoo/
