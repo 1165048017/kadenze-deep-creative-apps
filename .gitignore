@@ -93,3 +93,6 @@ img_align_celeba/
 
 # Galaxy zoo folder
 galaxy_zoo/
+
+# zip
+*.zip
