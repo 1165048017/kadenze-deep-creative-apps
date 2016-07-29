@@ -12,6 +12,7 @@ On OS X, download the Anaconda [installation script][continuum-download] for Pyt
 ````
 $ conda create -n tensorflow python=3.5
 $ source activate tensorflow
+(tensorflow)$ conda install ipykernel
 (tensorflow)$ export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/mac/tensorflow-0.9.0-py3-none-any.whl
 (tensorflow)$ pip install --upgrade --ignore-installed $TF_BINARY_URL
 `````
