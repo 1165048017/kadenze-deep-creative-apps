@@ -100,5 +100,9 @@ gtzan_music_speech/
 # inception folder
 inception/
 
+# vgg net
+vgg16.tfmodel
+synset.txt
+
 # zip
 *.zip
