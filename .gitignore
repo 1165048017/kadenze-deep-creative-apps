@@ -97,5 +97,8 @@ galaxy_zoo/
 # GTZAN folder
 gtzan_music_speech/
 
+# inception folder
+inception/
+
 # zip
 *.zip
