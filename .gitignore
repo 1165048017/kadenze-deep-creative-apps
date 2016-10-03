@@ -104,5 +104,9 @@ inception/
 vgg16.tfmodel
 synset.txt
 
+# vaegan net
+celeb.vaegan.tfmodel
+list_attr_celeba.txt
+
 # zip
 *.zip
