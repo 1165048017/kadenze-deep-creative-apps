@@ -113,3 +113,6 @@ list_attr_celeba.txt
 
 # zip
 *.zip
+
+# temp folder for conversion
+tmp/
