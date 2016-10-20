@@ -5,7 +5,6 @@ https://github.com/hardmaru/write-rnn-tensorflow
 
 import svgwrite
 import matplotlib.pyplot as plt
-import numpy as np
 import subprocess
 
 def initiate(size_x, size_y, filename):
@@ -30,7 +29,22 @@ def initiate(size_x, size_y, filename):
 
 
 def add_row_strokes(dwg, abs_x, abs_y, data, svg_scale=10):
+    """Add a row path to a SVG object.
 
+    Parameters
+    ----------
+    dwg : Drawing object
+        SVG object where the path will be added to.
+    abs_x : int
+        Absolute X position.
+    abs_y : int
+        Absolute Y position.
+    data : np.ndarray
+        List of coordinates of the path and stroke indicator.
+    svg_scale : int
+        SVG scale factor.
+
+    """
     lift_pen = 1
     p = "M%s,%s " % (abs_x, abs_y)
     command = "m"
@@ -54,6 +68,22 @@ def add_row_strokes(dwg, abs_x, abs_y, data, svg_scale=10):
 
 
 def convert_to_img(filename_svg, filename_png, density):
+    """Convert SVG file to img numpy array.
+
+    Parameters
+    ----------
+    filename_svg : filesystem filename
+        Filename for the SVG file.
+    filename_png : filesystem filename
+        Filename for the PNG file.
+    density : int
+        Density used during the imagemagick convert.
+
+    Returns
+    -------
+    img : np.ndarray
+        Matrix of the image.
+    """
     convert = subprocess.run(['convert', '-density', str(density), filename_svg, filename_png])
     img = plt.imread(filename_png)
     return img
