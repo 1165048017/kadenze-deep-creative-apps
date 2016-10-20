@@ -5,6 +5,7 @@ https://github.com/hardmaru/write-rnn-tensorflow
 
 import svgwrite
 import matplotlib.pyplot as plt
+import numpy as np
 import subprocess
 
 def initiate(size_x, size_y, filename):
