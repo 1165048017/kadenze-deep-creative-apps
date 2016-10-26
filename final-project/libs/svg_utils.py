@@ -28,7 +28,7 @@ def initiate(size_x, size_y, filename):
     return dwg
 
 
-def add_row_strokes(dwg, abs_x, abs_y, data, svg_scale=10):
+def add_row_strokes(dwg, abs_x, abs_y, data, svg_scale=10, stroke_width=1):
     """Add a row path to a SVG object.
 
     Parameters
@@ -62,7 +62,6 @@ def add_row_strokes(dwg, abs_x, abs_y, data, svg_scale=10):
         p += command+str(x)+","+str(y)+" "
 
     the_color = "black"
-    stroke_width = 1
 
     dwg.add(dwg.path(p).stroke(the_color,stroke_width).fill("none"))
 
