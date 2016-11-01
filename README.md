@@ -21,16 +21,27 @@ $ source activate tensorflow
 ## Credits
 
 + the main credits go to [Parag Mital][pkmital] and [Kadenze][kadenze] and all materials are distributed under the Apache license v2.0
-+ the assignments come from the [CADL GitHub repository][cadl], you can find in this repository amazing code, like a ready to use VAE/GAN net
++ the assignments come from the [CADL GitHub repository][github-cadl], you can find in this repository amazing code, like a ready to use VAE/GAN net
 + the course heavily relies on the [CelebFaces Attributes Dataset][mmlab-celeba]
 + the picture of the [galaxy NGC 4536][wikimedia-n4536] used in the session 2 and 4 is credited to Adam Block/Mount Lemmon SkyCenter/University of Arizona and is distributed under the Creative Commons Attribution-Share Alike 3.0 United States license, the picture has been transformed by the creative processes of the course
++ I have used the [Galaxy Zoo data][kaggle-galaxy-zoo] published on the Kaggle challenge web page for the first assignments (see further references to the Galaxy Zoo)
++ the code of the project is totally based on the project [write-rnn-tensorflow][github-write-rnn] by the great [Hardmaru][twitter-hardmaru], the net is trained on the [IAM On-Line Handwriting Database][iam-handwriting-database], freely available for non-commercial use once registered
++ the project has been inspired by [sand-glyphs][github-sand-glyphs], by the way, I highly recommend to have a look at the other creations of [Anders Hoff][twitter-incovergent] (alias Inconvergent) and you will for sure spend a good time reading is [blog][inconvergent]
 + the picture of the [Pleiades][wikimedia-pleiades] is in the public domain and authored by NASA, ESA, AURA/Caltech, Palomar Observatory
 
 [cadl-install]: https://github.com/pkmital/CADL#what-is-notebook
 [continuum-download]: https://www.continuum.io/downloads#_macosx
 [pkmital]: https://github.com/pkmital
 [kadenze]: https://www.kadenze.com/
-[cadl]: https://github.com/pkmital/CADL
+
+[github-cadl]: https://github.com/pkmital/CADL
 [mmlab-celeba]: http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 [wikimedia-n4536]: https://commons.wikimedia.org/wiki/File:N4536s-crop.jpg
+[kaggle-galaxy-zoo]: https://www.kaggle.com/c/galaxy-zoo-the-galaxy-challenge/data
+[github-write-rnn]: https://github.com/hardmaru/write-rnn-tensorflow
+[twitter-hardmaru]: https://twitter.com/hardmaru
+[iam-handwriting-database]: http://www.fki.inf.unibe.ch/databases/iam-on-line-handwriting-database
+[github-sand-glyphs]: https://github.com/inconvergent/sand-glyphs
+[twitter-incovergent]: https://twitter.com/inconvergent
+[inconvergent]: http://inconvergent.net/
 [wikimedia-pleiades]: https://en.wikipedia.org/wiki/File:Pleiades_large.jpg
