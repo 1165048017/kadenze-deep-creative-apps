@@ -3,7 +3,6 @@ My own assignments to Kandenze creative applications of deep learning in TensorF
 
 **Disclaimer:** be aware of the Kadenze code of conduct if you are enrolled in the course. Copying the code from this repository and pretending it to be sure would be bad (evil). Even looking into it may be an infringement. Plagiarism is not tolerated. You are now informed, behave with honor.
 
-
 ## Installation and setup
 
 You can find the installation instruction on the [CADL repository][cadl-install]. I have a slightly different setup since I use Anaconda.
@@ -18,7 +17,13 @@ $ source activate tensorflow
 (tensorflow)$ pip install --upgrade --ignore-installed $TF_BINARY_URL
 ````
 
-## Credits
+There are for sure many more dependencies, I'm used to install them one by one when required. That's also a good reason for using a Conda environment.
+
+## Contribution
+
+As this repository stored my own work and since the course is over for me, there is no need to update it. I will also most likely not accept any contribution.
+
+## Credits and license
 
 + the main credits go to [Parag Mital][pkmital] and [Kadenze][kadenze] and all materials are distributed under the Apache license v2.0
 + the assignments come from the [CADL GitHub repository][github-cadl], you can find in this repository amazing code, like a ready to use VAE/GAN net
@@ -26,7 +31,7 @@ $ source activate tensorflow
 + the picture of the [galaxy NGC 4536][wikimedia-n4536] used in the session 2 and 4 is credited to Adam Block/Mount Lemmon SkyCenter/University of Arizona and is distributed under the Creative Commons Attribution-Share Alike 3.0 United States license, the picture has been transformed by the creative processes of the course
 + I have used the [Galaxy Zoo data][kaggle-galaxy-zoo] published on the Kaggle challenge web page for the first assignments (see further references to the Galaxy Zoo)
 + the code of the project is totally based on the project [write-rnn-tensorflow][github-write-rnn] by the great [Hardmaru][twitter-hardmaru], the net is trained on the [IAM On-Line Handwriting Database][iam-handwriting-database], freely available for non-commercial use once registered
-+ the project has been inspired by [sand-glyphs][github-sand-glyphs], by the way, I highly recommend to have a look at the other creations of [Anders Hoff][twitter-incovergent] (alias Inconvergent) and you will for sure spend a good time reading is [blog][inconvergent]
++ the project has been inspired by [sand-glyphs][github-sand-glyphs], by the way, I highly recommend to have a look at the other creations of [Anders Hoff][twitter-incovergent] (alias Inconvergent) and you will for sure spend a good time reading his [blog][inconvergent]
 + the picture of the [Pleiades][wikimedia-pleiades] is in the public domain and authored by NASA, ESA, AURA/Caltech, Palomar Observatory
 
 [cadl-install]: https://github.com/pkmital/CADL#what-is-notebook
