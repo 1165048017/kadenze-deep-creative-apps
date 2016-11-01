@@ -22,11 +22,15 @@ $ source activate tensorflow
 
 + the main credits go to [Parag Mital][pkmital] and [Kadenze][kadenze] and all materials are distributed under the Apache license v2.0
 + the assignments come from the [CADL GitHub repository][cadl], you can find in this repository amazing code, like a ready to use VAE/GAN net
++ the course heavily relies on the [CelebFaces Attributes Dataset][mmlab-celeba]
 + the picture of the [galaxy NGC 4536][wikimedia-n4536] used in the session 2 and 4 is credited to Adam Block/Mount Lemmon SkyCenter/University of Arizona and is distributed under the Creative Commons Attribution-Share Alike 3.0 United States license, the picture has been transformed by the creative processes of the course
++ the picture of the [Pleiades][wikimedia-pleiades] is in the public domain and authored by NASA, ESA, AURA/Caltech, Palomar Observatory
 
 [cadl-install]: https://github.com/pkmital/CADL#what-is-notebook
 [continuum-download]: https://www.continuum.io/downloads#_macosx
 [pkmital]: https://github.com/pkmital
 [kadenze]: https://www.kadenze.com/
 [cadl]: https://github.com/pkmital/CADL
+[mmlab-celeba]: http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 [wikimedia-n4536]: https://commons.wikimedia.org/wiki/File:N4536s-crop.jpg
+[wikimedia-pleiades]: https://en.wikipedia.org/wiki/File:Pleiades_large.jpg
