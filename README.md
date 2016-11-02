@@ -1,17 +1,17 @@
 # kadenze-deep-creative-apps
 My own assignments to Kandenze creative applications of deep learning in TensorFlow
 
-**Disclaimer:** be aware of the Kadenze code of conduct if you are enrolled in the course. Copying the code from this repository and pretending it to be sure would be bad (evil). Even looking into it may be an infringement. Plagiarism is not tolerated. You are now informed, behave with honor.
+**Disclaimer:** be aware of the Kadenze code of conduct if you are enrolled in the course. Copying the code from this repository and pretending it to be yours would be bad (evil). Even looking into it may be an infringement. Plagiarism is not tolerated. You are now informed, behave with honor.
 
 ## Overview
 
-The course Kadenze create applications of deep learning in TensorFlow is a great MOOC to learn the TensorFlow framework and manipulate fascinating neural network architectures, like variational autoencoders (VAE) or recurrent neural network (RNN) with LSTM cells. For me it has been a great opportunity to develop my burgeoning creative skills.
+The Kadenze course "creative applications of deep learning in TensorFlow" is a great MOOC to learn the TensorFlow framework and manipulate fascinating neural network architectures, like variational autoencoders (VAE) or recurrent neural network (RNN) with LSTM cells. For me it has been a great opportunity to develop my burgeoning creative skills.
 
 You will experience latent space exploration (if you don't know what a latent space is, read [this good introduction][fastforward-vae]). The following manifold has been generated during the course with the dataset of my choice:
 
 ![Galaxy Zoo manifold][galaxy-manifold]
 
-The Galaxy Zoo dataset is not expressive enough and the visual and artistic impact is not as good as expected. Nevertheless, you can perfectly observe relevant variations of galaxy shape, sharpness, orientation, existence of stars in the field, etc.
+The Galaxy Zoo dataset is not expressive enough, so the visual and artistic impact is not as good as expected. Nevertheless, you can perfectly observe relevant variations of galaxy shape, sharpness, orientation, existence of stars in the field, etc.
 
 For the project, I came to play around with generative hand writing (see below for full credits on inspiration and external code use). After a training on human hand writing, the code is able to generate a kind of [ansemic writing][wikipedia-asemic]:
 
@@ -45,7 +45,7 @@ As this repository stored my own work and since the course is over for me, there
 + the picture of the [galaxy NGC 4536][wikimedia-n4536] used in the session 2 and 4 is credited to Adam Block/Mount Lemmon SkyCenter/University of Arizona and is distributed under the Creative Commons Attribution-ShareAlike 3.0 United States license, the picture has been transformed by the creative processes of the course
 + I have used the [Galaxy Zoo data][kaggle-galaxy-zoo] published on the Kaggle challenge web page for the first assignments (see further references to the Galaxy Zoo behind the link)
 + the code of the project is totally based on the project [write-rnn-tensorflow][github-write-rnn] by the great [Hardmaru][twitter-hardmaru], the net is trained on the [IAM On-Line Handwriting Database][iam-handwriting-database], freely available for non-commercial use once registered
-+ the project has been inspired by [sand-glyphs][github-sand-glyphs], by the way, I highly recommend to have a look at the other creations of [Anders Hoff][twitter-incovergent] (alias Inconvergent) and you will for sure spend a good time reading his [blog][inconvergent]
++ the project has been inspired by the artwork [sand-glyphs][github-sand-glyphs], by the way, I highly recommend to have a look at the other creations of [Anders Hoff][twitter-incovergent] (alias Inconvergent) and you will for sure spend a good time reading his [blog][inconvergent]
 + the picture of the [Pleiades][wikimedia-pleiades] is in the public domain and authored by NASA, ESA, AURA/Caltech, Palomar Observatory
 
 [fastforward-vae]: http://blog.fastforwardlabs.com/post/148842796218/introducing-variational-autoencoders-in-prose-and
