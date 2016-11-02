@@ -3,6 +3,16 @@ My own assignments to Kandenze creative applications of deep learning in TensorF
 
 **Disclaimer:** be aware of the Kadenze code of conduct if you are enrolled in the course. Copying the code from this repository and pretending it to be sure would be bad (evil). Even looking into it may be an infringement. Plagiarism is not tolerated. You are now informed, behave with honor.
 
+## Overview
+
+The course Kadenze create applications of deep learning in TensorFlow is a great MOOC to learn the TensorFlow framework and manipulate fascinating neural network architectures, like variational autoencoders (VAE) or recurrent neural network (RNN) with LSTM cells. For me it has been a great opportunity to develop my burgeoning creative skills.
+
+You will experience latent space exploration by generating manifolds with the dataset of your choice:
+
+![Galaxy zoo manifold][galaxy-manifold]
+
+![Generative hand writing][glyphs-rnn]
+
 ## Installation and setup
 
 You can find the installation instruction on the [CADL repository][cadl-install]. I have a slightly different setup since I use Anaconda.
@@ -50,3 +60,6 @@ As this repository stored my own work and since the course is over for me, there
 [twitter-incovergent]: https://twitter.com/inconvergent
 [inconvergent]: http://inconvergent.net/
 [wikimedia-pleiades]: https://en.wikipedia.org/wiki/File:Pleiades_large.jpg
+
+[galaxy-manifold]: /assets/img/manifold-galaxy.png "Galaxy zoo manifold"
+[glyphs-rnn]: /assets/img/glyphs-rnn.png "Generative hand writing"
