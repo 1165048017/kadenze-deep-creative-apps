@@ -7,9 +7,13 @@ My own assignments to Kandenze creative applications of deep learning in TensorF
 
 The course Kadenze create applications of deep learning in TensorFlow is a great MOOC to learn the TensorFlow framework and manipulate fascinating neural network architectures, like variational autoencoders (VAE) or recurrent neural network (RNN) with LSTM cells. For me it has been a great opportunity to develop my burgeoning creative skills.
 
-You will experience latent space exploration by generating manifolds with the dataset of your choice:
+You will experience latent space exploration (if you don't know what a latent space is, read [this good introduction][fastforward-vae]). The following manifold has been generated during the course with the dataset of my choice:
 
-![Galaxy zoo manifold][galaxy-manifold]
+![Galaxy Zoo manifold][galaxy-manifold]
+
+The Galaxy Zoo dataset is not expressive enough and the visual and artistic impact is not as good as expected. Nevertheless, you can perfectly observe relevant variations of galaxy shape, sharpness, orientation, existence of stars in the field, etc.
+
+For the project, I came to play around with generative hand writing (see below for full credits on inspiration and external code use). After a training on human hand writing, the code is able to generate a kind of [ansemic writing][wikipedia-asemic]:
 
 ![Generative hand writing][glyphs-rnn]
 
@@ -35,14 +39,17 @@ As this repository stored my own work and since the course is over for me, there
 
 ## Credits and license
 
-+ the main credits go to [Parag Mital][pkmital] and [Kadenze][kadenze] and all materials are distributed under the Apache license v2.0
-+ the assignments come from the [CADL GitHub repository][github-cadl], you can find in this repository amazing code, like a ready to use VAE/GAN net
++ the main credits go to [Parag Mital][pkmital] and [Kadenze][kadenze], all materials are distributed under the Apache license v2.0 and the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license
++ the assignments come from the [CADL GitHub repository][github-cadl], you can find in this repository amazing code, like a ready-to-use VAE/GAN net (strong computing power will be required to train it by yourself)
 + the course heavily relies on the [CelebFaces Attributes Dataset][mmlab-celeba]
-+ the picture of the [galaxy NGC 4536][wikimedia-n4536] used in the session 2 and 4 is credited to Adam Block/Mount Lemmon SkyCenter/University of Arizona and is distributed under the Creative Commons Attribution-Share Alike 3.0 United States license, the picture has been transformed by the creative processes of the course
-+ I have used the [Galaxy Zoo data][kaggle-galaxy-zoo] published on the Kaggle challenge web page for the first assignments (see further references to the Galaxy Zoo)
++ the picture of the [galaxy NGC 4536][wikimedia-n4536] used in the session 2 and 4 is credited to Adam Block/Mount Lemmon SkyCenter/University of Arizona and is distributed under the Creative Commons Attribution-ShareAlike 3.0 United States license, the picture has been transformed by the creative processes of the course
++ I have used the [Galaxy Zoo data][kaggle-galaxy-zoo] published on the Kaggle challenge web page for the first assignments (see further references to the Galaxy Zoo behind the link)
 + the code of the project is totally based on the project [write-rnn-tensorflow][github-write-rnn] by the great [Hardmaru][twitter-hardmaru], the net is trained on the [IAM On-Line Handwriting Database][iam-handwriting-database], freely available for non-commercial use once registered
 + the project has been inspired by [sand-glyphs][github-sand-glyphs], by the way, I highly recommend to have a look at the other creations of [Anders Hoff][twitter-incovergent] (alias Inconvergent) and you will for sure spend a good time reading his [blog][inconvergent]
 + the picture of the [Pleiades][wikimedia-pleiades] is in the public domain and authored by NASA, ESA, AURA/Caltech, Palomar Observatory
+
+[fastforward-vae]: http://blog.fastforwardlabs.com/post/148842796218/introducing-variational-autoencoders-in-prose-and
+[wikipedia-asemic]: https://en.wikipedia.org/wiki/Asemic_writing
 
 [cadl-install]: https://github.com/pkmital/CADL#what-is-notebook
 [continuum-download]: https://www.continuum.io/downloads#_macosx
@@ -61,5 +68,5 @@ As this repository stored my own work and since the course is over for me, there
 [inconvergent]: http://inconvergent.net/
 [wikimedia-pleiades]: https://en.wikipedia.org/wiki/File:Pleiades_large.jpg
 
-[galaxy-manifold]: /assets/img/manifold-galaxy.png "Galaxy zoo manifold"
+[galaxy-manifold]: /assets/img/manifold-galaxy.png "Galaxy Zoo manifold"
 [glyphs-rnn]: /assets/img/glyphs-rnn.png "Generative hand writing"
